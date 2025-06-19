@@ -20,6 +20,7 @@ a:hover {
   
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .logo {
@@ -54,6 +55,7 @@ a:hover {
 
 main {
   padding: 40px 80px;
+  margin-top: 80px;
 }
 
 .title {
@@ -163,6 +165,11 @@ main {
   text-align: center;
 
   backdrop-filter: blur(6px);
+
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .ad-banner-title {
