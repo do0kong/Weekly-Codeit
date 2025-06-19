@@ -119,6 +119,10 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
+
+  position: absolute;
+  left: 8px;
+  bottom: 8px; 
 }
 
 .book .title {
